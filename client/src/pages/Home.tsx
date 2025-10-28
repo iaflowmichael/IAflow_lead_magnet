@@ -6,7 +6,8 @@ export default function Home() {
   useEffect(() => {
     // Generate random positions for decorative elements
     // Using a seeded approach for consistent positioning
-    const elements = Array.from({ length: 15 }, (_, i) => {
+    // Fewer, larger elements like in the template
+    const elements = Array.from({ length: 8 }, (_, i) => {
       const seed = i * 7919; // Prime number for distribution
       const random1 = Math.sin(seed) * 10000;
       const random2 = Math.sin(seed * 2) * 10000;
@@ -16,7 +17,7 @@ export default function Home() {
         id: i,
         top: `${(random1 - Math.floor(random1)) * 100}%`,
         left: `${(random2 - Math.floor(random2)) * 100}%`,
-        size: `${(random3 - Math.floor(random3)) * 80 + 60}px`,
+        size: `${(random3 - Math.floor(random3)) * 150 + 200}px`,
         delay: (i % 5) * 1.2,
       };
     });

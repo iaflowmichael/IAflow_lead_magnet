@@ -13,3 +13,9 @@
 - [ ] Tester la fonctionnalité WhatsApp sur tous les appareils
 - [x] Valider la lisibilité du texte avec les éléments décoratifs en arrière-plan
 
+
+
+## Bugs à corriger
+- [x] Augmenter la taille des éléments décoratifs (cellules roses) - doivent être beaucoup plus grandes et moins nombreuses
+- [x] Réduire le nombre d'éléments décoratifs pour correspondre à la template
+
