@@ -19,3 +19,8 @@
 - [x] Augmenter la taille des éléments décoratifs (cellules roses) - doivent être beaucoup plus grandes et moins nombreuses
 - [x] Réduire le nombre d'éléments décoratifs pour correspondre à la template
 
+
+
+## Changements demandés
+- [x] Remplacer la photo du fondateur par la couverture du livre "SCAN 3P"
+
